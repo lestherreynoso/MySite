@@ -15,12 +15,31 @@
 
     <!-- TEMPORARY STYLE SHEET-->
     <style>
+    header div.container-fluid{
+      padding: 0px 0px;
+    }
+    .jumbotron, nav{
+      background: -webkit-linear-gradient(135deg, #1A1A1A, #484848, #1A1A1A, #484848, #1A1A1A); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(135deg, #1A1A1A,  #484848, #1A1A1A, #484848, #1A1A1A); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(135deg, #1A1A1A, #484848, #1A1A1A, #484848, #1A1A1A); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(135deg, #1A1A1A,  #484848, #1A1A1A, #484848, #1A1A1A); /* Standard syntax (must be last) */
+      /*padding: 48px 0px 0px 0px;*/
+
+    }
+    header div.navbar{
+      margin-bottom: 0px;
+
+    }
+    .jumbotron h1, header h3{
+      padding: 0px 30px;
+      color: #999999;
+
+    }
     body{
       background-color: gray;
     }
-    .jumbotron{
-      background-color: white;
-    }
+
+
     h1{
       text-shadow: -5px 10px 10px gray;
     }
@@ -29,6 +48,35 @@
       border-color: #0099FF;
       border-width: 5px;
     }
+    h3{
+      margin-top: 0px;
+    }
+
+    .navbar{
+      padding-top: 0px;
+    }
+
+    #fan{
+      text-shadow: -2.5px 5px 3px #660000;
+      font-size: 20px;
+    }
+    #strengths{
+      font-weight: bold;
+      border-style: ridge;
+      padding: 5px;
+    } 
+    #qualities{
+      font-size: 18px;
+      color: #008A2E;
+
+    }
+    #subqualities{
+      font-size: 14px;
+      float: right;
+      color:  #005C1F;
+    }
+
+
     </style>
 
     <!-- TEMPORARY SCRIPTSHEET-->
@@ -49,12 +97,22 @@
 
   </head>
   <body>
-  <div class="container-fluid">
-    <div class="jumbotron">
-      <h1>Lesther Reynoso</h1>
-      <h3>Computer Scientist, Computer Engineer</h3>
-    </div>
-    <div class="row">
+  <header>
+      <div class="jumbotron">
+        <h1>Lesther Reynoso</h1>
+        <h3>Computer Scientist, Computer Engineer</h3>
+        <!-- <nav class="navbar navbar-inverse">
+          <div class="navbar-header">
+            <a class="navbar-brand">Contact me:</a>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">reynosl@sunyit.edu</a></lem>
+              <lem><a href="#">reynosolesther@gmail.com</a></lem>
+            </ul>
+          </div> 
+        </nav> -->
+      </div> 
+  </header>
+<!--     <div class="row">
       <div class="col-md-3">
         <div class="panel panel-info">
           <div class="panel-heading">
@@ -69,16 +127,16 @@
         </div>
 
       </div>
-      <div class="col-md-9">
+      <div class="col-md-9"> -->
 
         <div class="container">
             <div class="panel panel-info">
               <div class="panel-heading">
                 <ul class="nav nav-pills">
-                  <li data-target="#mycarousel" data-slide-to="0" class="active"><a href="#aboutme">About Me</a></li>
-                  <li data-target="#mycarousel" data-slide-to="1"><a href="#resume">Resume</a></li>
-                  <li data-target="#mycarousel" data-slide-to="2"><a href="#portfolio">Portfolio</a></li>
-                  <li data-target="#mycarousel" data-slide-to="3"><a href="#projects">Projects</a></li>
+                  <li data-target="#mycarousel" data-slide-to="0" class="active"><a href="#aboutme">About Me</a></lem>
+                  <li data-target="#mycarousel" data-slide-to="1"><a href="#resume">Resume</a></lem>
+                  <li data-target="#mycarousel" data-slide-to="2"><a href="#portfolio">Portfolio</a></lem>
+                  <li data-target="#mycarousel" data-slide-to="3"><a href="#projects">Projects</a></lem>
                 </ul>
               </div>
               <div class="panel-body">
@@ -86,16 +144,77 @@
                   <div class="carousel-inner">
                     <div class="item active">
                      <h3>What to say about me...</h3>
-                     ... that would make me sound FANTASTIC!<br>
-                     <p>
-                     Work wise..<br>
-                     I am pretty good with doing what i say im going to do. If i make a commitment to someone to get 
-                     something done i will get it done. Something pretty bad has to happen for me to fail in that. <br>
+                     <em>... that would make me sound <span id="fan">FANTASTIC!</span></em><br>
+                      I am currently pursuing a bachelors degree in Computer Science and Computer Engineering with a Math minor. I will 
+                      be entering my fifth year this August in which i expect to gradute the following May. <br><br>
 
-                     </p>
-                      <div class="carousel-caption">
-                        
-                      </div>
+                      I have an interest in game design and after taking a course in web game programming and developing this website i have
+                      also gained an interest web development as well.<br><br>
+
+                      I also work with hardware components building and programming a small rc robot using a rasperry pi as the controller. I 
+                      code a lot in python to communicate with each of the individual components on the robot. <br><br>
+
+                      I learned a lot more than i knew about HTML, CSS, JavaScript, and JQuery very quickly in making this website which i think is cool.<br><br>
+
+
+                      Work wise..<br>
+                      <h2>Strengths</h2>
+
+                        <p id="strengths"><span id="qualities">Integrity</span><span id="subqualities">Ye shall not break me</span><br></p>
+                         
+                          <p id="descriptions">
+                            I am pretty good with doing what i say im going to do. If i make a commitment to someone to get 
+                            something done i will get it done. Something pretty bad has to happen for me to fail in that. I am dedicated to seeing
+                            challenges i accept lead to successful outcomes. I always try my best with all my committments. 
+                          </p>
+
+                        <p id="strengths"><span id="qualities">Detail-oriented</span><span id="subqualities">No detail can hide from me</span><br></p>
+                          
+                          <p id="descriptions">
+                            I pay a lot of mind to small details when it is necessary. I've learned through my time as chair of my campus' student association
+                            policy committee that the smallest of details can have a huge impact on overall outcome. In my coding experience as well that fact 
+                            continues to and definitely will prove true when theres a misplaced semi-colon or bracket in the code or the reassignment of an 
+                            important variable.
+                          </p>
+
+                        <p id="strengths"><span id="qualities">Ambitious</span><span id="subqualities">"Reach for the sky" -Sheriff Woody</span><br></p>
+                          
+                          <p id="descriptions">
+                            Challenges always appeal to me. If I feel I can tackle on another project, task, or class, I go right ahead. Being ambitious has
+                            led me to pursue a second major and a minor all while working 10 to 20 hours a week around classes and volunteering my time to my student 
+                            government. From that I've developed great work relationships, gained a lot of valueable leadership experience and knowledge as well
+                            as recieve a few certifications and awards, and I will be graduating in May of 2015 with two bachelor degrees and a minor.
+                          </p>
+
+                        <p id="strengths"><span id="qualities">Manager of Time</span><span id="subqualities">Yeah.. I show time who's boss</span><br></p>
+                          
+                          <p id="descriptions">
+                            Being ambitious and accepting new challenges has led me to become very well and organizing myself and managing my time appropiately.
+                            This past semester I successfully managed 6 classes, 2 jobs, participating in 3 committees, and chairing a committee on a weekly basis. 
+                            I can say that the experience reinforced my organizational and time managing skills. 
+                          </p>
+
+                        <p id="strengths"><span id="qualities">Team Player</span><span id="subqualities">We can do this guys!</span><br></p>
+                          
+                          <p id="descriptions">
+                            Over the course of my education i have worked with others often, each time a new and enriching experience. I have led two groups 
+                            in a couple of computer science courses, Software Engineering and Operating Systems and Networking. In my computer engineering 
+                            background, I've worked with many partners and groups for our labs or projects. Participating in committees also adds to my 
+                            experience either leading or participating with others. With each experience i learned that i enjoy working with others and seeing 
+                            each individual contribution come together in a successful final result. Teams also help me learn new things about the limits of what
+                            i can acomplish.
+                          </p>   
+
+                      <h2>Weaknesses</h2>
+
+                        <p id="weaknesses"><span id="qualities">Ambitious</span><span id="subqualities">"This isn't flying, this is falling with style!" -Buzz Lightyear</span><br></p>
+                      
+
+
+
+
+                    
+
                     </div>
 
                     <div class="item">
@@ -120,7 +239,7 @@
                       
                       <h2>Work Experience</h2>
                       <p><strong>SUNY Institute of Technology Information Technology Help Desk</strong>, Utica, NY<br>
-                        <i>Help Desk Technician (1/14 - Present)</i><br>
+                        <em>Help Desk Technician (1/14 - Present)</em><br>
                         <div style="text-indent:5%">
                           Developed and maintained professional relationships among students, faculty, and staff, 
                           educating them on the general use of on campus or personal technology and performed 
@@ -129,7 +248,7 @@
                       </p>
                       
                       <p><strong>SUNY Institute of Technology Cayan Library</strong>, Utica, NY<br>
-                        <i>Library Assistant (8/10 - Present)</i><br>
+                        <em>Library Assistant (8/10 - Present)</em><br>
                         <div style="text-indent:5%">
                           Managed the organization and distribution of resources for all customers in 
                           a professional and timely manner and located relevant information that met the 
@@ -138,7 +257,7 @@
 
                       </p>
                       <p><strong>A.C.T. Programs at the Cathedral of St. John</strong>, New York, NY<br>
-                        <i>Assistant to Director (6/11 - 8/13, Seasonal)</i><br>
+                        <em>Assistant to Director (6/11 - 8/13, Seasonal)</em><br>
                         <div style="text-indent:5%">
                           Reliably established a safe and effective environment for all staff utilize 
                           in programs, provided clear and visible notification of equipment and locations, 
@@ -148,7 +267,7 @@
                       </p>
                       <h2>Leadership Experience</h2>
                       <p>
-                        <i>Student Association Senator (9/12 - Present)</i><br>
+                        <em>Student Association Senator (9/12 - Present)</em><br>
                         <div style="text-indent:5%">
                           Chaired the Policy Committee in which we revised and improved all governing 
                           documents of the Student Associations and all student run organizations.
@@ -162,7 +281,10 @@
 
                     <div class="item">
                      <h2>This is where my portfolio (whatever that is) will go</h2>
+                        <script src="http://gist-it.appspot.com/github/lestherreynoso/SUNYIT-CS-240/blob/master/Lesther_Reynoso_GHP_7.cpp?slice=26:44"></script>
                     </div>
+
+                    
 
                     <div class="item">
                      <h2>This is where my projects will go once i start some :D</h2>
@@ -177,7 +299,7 @@
           </div>
 
 
-      </div>
+      <!-- </div> -->
     </div>
   </div>
 
@@ -192,8 +314,8 @@
   <nav class="navbar navbar-default" role="navagation">
     <div class="container-fluid">
       <ul class="nav navbar-nav">
-      <li><a href="#">Link1</a></li>
-      <li><a href="#">Link2</a></li>
+      <lem><a href="#">Link1</a></lem>
+      <lem><a href="#">Link2</a></lem>
   </nav>
 
   </body>

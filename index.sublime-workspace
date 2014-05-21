@@ -1,0 +1,194 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"bor",
+				"border-style"
+			],
+			[
+				"carou",
+				"carousel"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/lesther/Downloads/hw/ReynosoHwk2/ReynosoHwk2.3.html",
+		"/home/lesther/Desktop/mysite/index.html",
+		"/home/lesther/Desktop/yes/MAPS-RC/apps/test.py",
+		"/home/lesther/Desktop/reps/SUNYIT-CS-490/ReynosoHwk7/README.md",
+		"/home/lesther/Desktop/reps/SUNYIT-CS-490/ReynosoHwk8/README.md",
+		"/home/lesther/Desktop/reps/SUNYIT-CS-490/Hwk6/README.md",
+		"/home/lesther/Desktop/yes/MAPS-RC/apps/ledTest.py",
+		"/home/lesther/Downloads/CS 240-01/stack implementation using static array/driver.cpp",
+		"/home/lesther/Downloads/240/Lesther_Reynoso_GHP_1.cpp",
+		"/var/www/index.html",
+		"/home/lesther/Desktop/mysite/css/bootstrap.css",
+		"/home/lesther/Desktop/mysite/css/bootstrap.min.css",
+		"/home/lesther/Desktop/lesther/shift.py"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"createImageData",
+			"#lighton",
+			"#goForward"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
