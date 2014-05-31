@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lesther Reynoso</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/shimmer.css" rel="stylesheet">
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <style>
+            @font-face{
+                font-family: imagine;
+                src: url(fonts/imagine_font.ttf);
+            }
+            .jumbotron{
+                background-image: url("img/escheresque_ste.png");
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+                clear:both;
+            }
+            .jumbotron h1{
+                color: black;
+            }
+            .jumbotron a{
+                color:transparent;
+            }
+            .jumbotron a:hover{
+                color:transparent;
+            }
+            .jumbotron h2{
+                color: black;
+            }
+            .jumbotron .panel{
+                font-family: imagine;
+                font-size: x-large;
+                float: right;
+                color: white;
+                text-align: center;
+            }
+            .col-lg-3{
+                background-image: url("img/escheresque_ste.png");
+                padding-left: 0px;
+                text-align: center;
+            }
+            .col-lg-3 .list-group{
+                font-family: imagine;
+                font-size: x-large;
+                max-height: 100%
+            }
+/*            .col-md-12 .panel{
+                font-size: large;
+            }*/
+            .col-lg-3 .list-group span a{
+                -ms-transition: font-size 0.3s; /* IE 9 */
+                -webkit-transition: font-size 0.3s; /* Chrome, Safari, Opera */
+                transition: font-size 0.3s;
+            }
+            .col-lg-3 .list-group span a:hover{
+                font-size: xx-large;
+                text-decoration: none;
+            }
+/*            .col-md-12 .panel-body span a:hover{
+                font-size: x-large;
+                text-decoration: none;
+            }*/
+            .col-lg-8{
+                margin-top: 30px
+            }
+            body{
+                background-color: lightgoldenrodyellow;
+                background-image: url("")
+            }
+            ul{
+                list-style-type: none;
+            }
+            .list-group-item{
+                background-color: transparent;
+                border-color: transparent;
+            }
+            .list-group-item:hover{
+                color: transparent;
+            }
+            .panel, .panel-body{
+                background-color: transparent;
+                border-color: transparent;
+            }
+            .carousel-inner .item img{
+                padding: 15px;
+            }
+/*            .col-md-12 ul{
+                text-align: center;
+            }
+            .col-md-12 ul li{
+                float: left;
+                margin: 0px 15px;
+            }*/
+            #download{
+            
+            }
+            footer{
+                bottom: 0px;
+                text-align: center;
+            }
+
+        </style>
+
+        <script>
+            $(document).ready(function(){
+                $("h2").fadeIn("slow"); 
+            
+                $('.carousel').carousel({
+                    interval: false  
+                })
+
+                $("div.col-lg-3 > div.panel > div.panel-body > span").click(function(){
+                    $("div.col-lg-3 > div.panel > div.panel-body > span").removeClass("active")
+                    $(this).addClass("active")
+                })
+            })
+        </script>
+
+    </head>
+    <body>
+        <header>
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="shimmer"><a href="fun.html"><em>Lesther Reynoso</em></a></h1> 
+                        <h2>Computer Scientist, Computer Engineer</h2>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="panel">
+                            <div class="panel-header">
+                                Reach Me
+                            </div>
+                            <div class="panel-body">
+                                <ul>
+                                    <li><strong>Email: </strong>reynosl@sunyit.edu</li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <a href="mailto:reynosl@sunyit.edu" ><img src="img/Gmail_logo.png" alt="Gmail" class="img-responsive"></a>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <a href="https://www.linkedin.com/pub/lesther-reynoso/90/a26/64a/" ><img src="img/Logo-59px-TM.png" alt="LinkedIn" class="img-responsive"></a>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <a href="https://www.github.com/lestherreynoso" ><img src="img/GitHub_Logo.png" alt ="Git Hub" class="img-responsive"></a>
+                                            </div>
+                                            
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-12">
+
+                    <div class="list-group">
+                        <span data-target="#carousel" data-slide-to="0" class="list-group-item active"><a href="#aboutme">About Me!</a></span>
+                        <span data-target="#carousel" data-slide-to="1" class="list-group-item"><a href="#resume">Resume</a></span>
+                        <span data-target="#carousel" data-slide-to="2" class="list-group-item"><a href="#portfolio">Portfolio</a></span>
+                        <span data-target="#carousel" data-slide-to="3" class="list-group-item"><a href="#contactme">Projects</a></span>
+                        <span data-target="#carousel" data-slide-to="4" class="list-group-item"><a href="#contactme">Contact Me</a></span>
+                    </div>
+
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            
+                            <div id="carousel" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+
+                                    <div class="item active">
+                                        <img src="img/myface.png" alt="myface" class=" img-responsive img-rounded pull-left">
+                                        <h3>What to say about this guy...</h3>
+                                        <p>
+                                        I am currently pursuing a bachelors degree in Computer Science and Computer Engineering with a Math minor. I will 
+                                        be entering my fifth year this August in which i expect to gradute the following May. <br><br>
+
+                                        I have an interest in game design and after taking a course in web game programming and developing this website i have
+                                        also gained an interest web development as well.<br><br>
+
+                                        I also work with hardware components building and programming a small rc robot using a rasperry pi as the controller. I 
+                                        code a lot in python to communicate with each of the individual components on the robot. <br><br>
+
+                                        I learned a lot more than i knew about HTML, CSS, JavaScript, and JQuery very quickly in making this website which i think is cool.
+                                        </p>
+
+                                        <p>
+                                        Hi, I'm Lesther. I always had an interest in most computer related things growing up. I've always been interested in knowing 
+                                        how everything worked from why the parts in the computer made noise and how the applications I use so often were made.
+                                        Because of that I began studying computer science, learning the concepts of programming however i still had an interest in the 
+                                        hardware aspect of computer technology. 
+                                        </p>
+                                        <p>
+                                        At the time i couldn't decide which field I had most interest in and I had to make a decision. I decided on tackling them both. 
+                                        Along the way I learned i have a huge interest in learning new things. I gained interests in game design, game development, 
+                                        web development, hardware interfacing (currently with a Raspberry Pi and Arduino board) and robotics. With each of these 
+                                        interests I find myself taking time to learn more about them when i can.
+                                        </p> 
+                                        <p>
+                                        Currently I am interesting in finding a position where i can apply and learn more about the software development process. 
+                                        I've been learning about front-end web development and begun investigating on the back-end using Nodejs, as well as rebuilding 
+                                        a raspberry pi controlled robot written mostly in Python. I hope to find a position that would teach me more about software 
+                                        development or hardware interfacing.
+                                        </p>
+                                    </div> 
+                                    <!-- End of item 1 -->
+
+                                    <div class="item">
+                                        <div id="download">
+                                            <a href="files/LestherReynosoResume.pdf"><img src="img/pdficon_large.png" alt="PDF" height="10%" width="10%"></a>
+                                            <a href="files/LestherReynosoResume.docx"><img src="img/docx.png" alt="DOCX" height="10%" width="10%"></a>
+                                        </div>
+
+                                        <div>
+                                            <h2>Objective</h2>
+                                            <p>
+                                              I am looking to utilize my programming and engineering background in an 
+                                              environment in which I can both contribute to team and organization success 
+                                              and gain knowledge and experience to further develop my skills.
+                                            </p>
+                                            <h2>Skills and Strengths</h2>
+                                            <div>
+                                            Intuitive and fast paced learning ability, well established communication skills, 
+                                            confident working in teams, detail-oriented. Experienced with Microsoft Office, Windows 7, 
+                                            Windows 8, Linux, Assembly, C, C++, Java, JavaScript, Python, SQL, HTML5, CSS, and MATLAB
+                                            </div>
+                                            <h2>Education</h2>
+                                            <strong>SUNY Institute of Technology</strong>, Utica, NY<br>
+                                              <span style="float:right">May 2015</span>
+                                              Bachelor of Science, Computer Science<br>
+                                              Bachelor of Science, Computer Engineering<br>
+                                              Minor in Mathematics
+                                            
+                                            <h2>Work Experience</h2>
+                                            <p><strong>SUNY Institute of Technology Information Technology Help Desk</strong>, Utica, NY<br>
+                                              <em>Help Desk Technician (1/14 - Present)</em><br>
+                                              <div>
+                                                Developed and maintained professional relationships among students, faculty, and staff, 
+                                                educating them on the general use of on campus or personal technology and performed 
+                                                troubleshooting on and resolved technical issues they faced.
+                                              </div>
+                                            </p>
+                                            
+                                            <p><strong>SUNY Institute of Technology Cayan Library</strong>, Utica, NY<br>
+                                              <em>Library Assistant (8/10 - Present)</em><br>
+                                              <div>
+                                                Managed the organization and distribution of resources for all customers in 
+                                                a professional and timely manner and located relevant information that met the 
+                                                customers’ needs.
+                                              </div>
+
+                                            </p>
+                                            <p><strong>A.C.T. Programs at the Cathedral of St. John</strong>, New York, NY<br>
+                                              <em>Assistant to Director (6/11 - 8/13, Seasonal)</em><br>
+                                              <div>
+                                                Reliably established a safe and effective environment for all staff utilize 
+                                                in programs, provided clear and visible notification of equipment and locations, 
+                                                and arranged and ensured functionality of all audio-visual equipment. 
+                                              </div>
+
+                                            </p>
+                                            <h2>Leadership Experience</h2>
+                                            <p>
+                                              <em>Student Association Senator (9/12 - Present)</em><br>
+                                              <div>
+                                                Chaired the Policy Committee in which we revised and improved all governing 
+                                                documents of the Student Associations and all student run organizations.
+                                              </div>
+                                              <div>
+                                                Chaired the Technology Committee in which we bridged communications between 
+                                                students and faculty in regards to technological changes on campus.
+                                              </div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- End of Item 2 -->
+                                    <div class="item">
+                                        <h2>Here are some examples of some challenges I defeated:</h2>
+                                        <script src="http://gist-it.appspot.com/github/lestherreynoso/SUNYIT-CS-240/blob/master/Lesther_Reynoso_GHP_7.cpp?slice=25:43"></script>
+                                        <script src="http://gist-it.appspot.com/github/lestherreynoso/SUNYIT-CS-490/blob/master/Hwk4/js/planarity.js?slice=146:157"></script>
+                                        <script src="http://gist-it.appspot.com/github/lestherreynoso/SUNYIT-CS-495/blob/master/ReynosoHwk4.py?slice=61:86"></script>
+                                    </div>
+                                    <!-- End of Item 3 -->
+
+                                    <div class="item">
+                                        <h2>What I'm Currently Working on!!</h2>
+                                        <ul>
+                                            <li>This Website!</li>
+                                            <li>Raspberry Pi robot 2.0</li>
+                                            <li>Portfolio on Github</li>
+                                            <li>NodeJs fun</li>
+                                        </ul>
+                                    </div>
+                                    <!-- End of Item 4 -->
+
+                                    <div class="item">
+                                        <h2>Ways to reach me!</h2>
+                                        One of these ways
+                                        <ul>
+                                          <li><a href="https://www.linkedin.com/pub/lesther-reynoso/90/a26/64a/"><img src="img/InBug-60px-TM.png" alt="LinkedIn"></a></li>
+                                          <li><a href="https://www.github.com/lestherreynoso"><img src="img/GitHub-Mark-64px.png" alt ="Git Hub"></a></li>
+                                          <li><a href="mailto:reynosl@sunyit.edu"><img src="img/googlemail-64.png" alt="Gmail"></a></li>
+                                        </ul>
+
+                                        <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
+                                            simple collapsible
+                                        </button>
+
+                                        <div id="demo" class="collapse pull-right">
+                                            <form action="MAILTO:reynosl@sunyit.edu" method="post" enctype="text/plain">
+                                                Name:<br>
+                                                <input type="text" name="name" value="your name"><br>
+                                                E-mail:<br>
+                                                <input type="text" name="mail" value="your email"><br>
+                                                Comment:<br>
+                                                <input type="text" name="comment" value="your comment" size="50"><br><br>
+                                                <input type="submit" value="Send">
+                                                <input type="reset" value="Reset">
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <!-- End of Item 5 -->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    Copyright 2014 &copy Lesther H. Reynoso
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
